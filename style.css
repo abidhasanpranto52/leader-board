@@ -1,0 +1,27 @@
+body{
+    background: #F3F1FF;
+    font-family: cursive;
+}
+.players{
+    display: flex;
+    justify-content: center;
+}
+.players-description{
+    width: 870px;
+    padding: 20px 30px;
+    background: #ffffff;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+}
